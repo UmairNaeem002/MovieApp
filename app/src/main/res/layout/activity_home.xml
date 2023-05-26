@@ -57,6 +57,15 @@
             android:layout_marginVertical="10dp"/>
 
         <Button
+            android:id="@+id/Posters"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Featured"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/black"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
             android:id="@+id/signOut"
             android:layout_width="200dp"
             android:layout_height="wrap_content"

@@ -82,7 +82,9 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener, retrofit2.Callba
             R.id.bbook -> {
                 startActivity(Intent(this,BookActivity::class.java))
             }
-            
+            R.id.Posters -> {
+                startActivity(Intent(this,FeaturedActivity::class.java))
+            }
         }
     }
 
