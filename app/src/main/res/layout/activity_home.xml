@@ -39,19 +39,28 @@
             android:layout_marginVertical="10dp"/>
 
         <Button
-            android:id="@+id/signOut"
+            android:id="@+id/myReviews"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="@string/sign_out"
+            android:text="@string/my_reviews"
             android:background="@drawable/bg_button"
             android:textColor="@color/black"
             android:layout_marginVertical="10dp"/>
 
         <Button
-            android:id="@+id/myReviews"
+            android:id="@+id/bbook"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="@string/my_reviews"
+            android:text="Book"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/black"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
+            android:id="@+id/signOut"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_out"
             android:background="@drawable/bg_button"
             android:textColor="@color/black"
             android:layout_marginVertical="10dp"/>

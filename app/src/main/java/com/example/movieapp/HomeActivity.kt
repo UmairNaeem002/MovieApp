@@ -78,6 +78,11 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener, retrofit2.Callba
             R.id.signOut -> {
                 signOut()
             }
+
+            R.id.bbook -> {
+                startActivity(Intent(this,BookActivity::class.java))
+            }
+            
         }
     }
 
