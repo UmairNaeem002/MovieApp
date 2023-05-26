@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="all_reviews">All Reviews</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="Title">Title</string>
+    <string name="Description">Description</string>
+    <string name="submit">SUBMIT</string>
+    <string name="update">UPDATE</string>
+
+</resources>

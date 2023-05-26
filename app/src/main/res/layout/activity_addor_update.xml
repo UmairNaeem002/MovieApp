@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddorUpdateActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:textColor="@color/black"
+        android:textSize="16dp">
+    </TextView>
+    
+    <EditText
+        android:id="@+id/edTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName">
+        
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Description"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

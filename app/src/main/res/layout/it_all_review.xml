@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list_items"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/purple_200"
+        android:text="Review Title"
+        android:textStyle="bold"
+        android:textSize="16dp"
+/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/purple_200"
+        android:text="Review Description"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        />
+
+    <TextView
+        android:id="@+id/dateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/purple_200"
+        android:text="2023-5-27 20:55"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        />
+
+    <TextView
+        android:id="@+id/reviewerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/purple_200"
+        android:text="Mr Fahad"
+        android:textSize="14dp"
+        />
+</LinearLayout>
